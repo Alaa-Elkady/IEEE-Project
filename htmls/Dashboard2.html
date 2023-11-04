@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="./css/2nd.css" />
+    <link rel="stylesheet" type="text/css" href="./css/Dashboard.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Books List</title>
+  </head>
+  <body>
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand"
+          ><img class="logo" src="./images/download.webp"
+        /></a>
+        <nav class="sections">
+          <ul>
+            <li><a href="./user.html">Home</a></li>
+            <li><a href="./Dashboard1.html">Users</a></li>
+            <li><a href="./Dashboard2.html">Books</a></li>
+            <li><a href="./login.html">Log Out</a></li>
+          </ul>
+        </nav>
+        <div class="input-wrapper">
+          <button class="icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              height="25px"
+              width="25px"
+            >
+              <path
+                stroke-linejoin="round"
+                stroke-linecap="round"
+                stroke-width="1.5"
+                stroke="#fff"
+                d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z"
+              ></path>
+              <path
+                stroke-linejoin="round"
+                stroke-linecap="round"
+                stroke-width="1.5"
+                stroke="#fff"
+                d="M22 22L20 20"
+              ></path>
+            </svg>
+          </button>
+          <input placeholder="search.." class="input" name="text" type="text" />
+        </div>
+      </div>
+    </nav>
+
+    <div class="users">
+      <div class="cont-table">
+        <table class="table book">
+          <thead>
+            <tr>
+              <th scope="col">ID</th>
+              <th scope="col">Book Name</th>
+              <th scope="col">Description</th>
+              <th scope="col">Author</th>
+              <th scope="col">Submission Date</th>
+              <th scope="col">Cover</th>
+              <th scope="col">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Mark</td>
+              <td><p>Ott ,nnnnnnnnn
+                nnnnnnnnnnnnnnnnnn
+                nnnnnnnnnnnnn ppppppppppppppppppppppp nnnnnno</p> </td>
+              <td>000</td>
+              <td>@mdo</td>
+              <td>0000</td>
+              <td>
+                <form action="" class="dB">
+                  <div class="btn edit"><a href="./editbook.html"> Edit</a></div>
+                  <div class="btn clear"><a href="">Delete</a></div>
+                </form>
+              </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Jacob</td>
+              <td><p>Thornton</p> </td>
+              <td>@fat</td>
+              <td>0000</td>
+              <td>0000</td>
+              <td>
+                <form action="" class="dB">
+                  <div class="btn edit"><a href="./editbook.html"> Edit</a></div>
+                  <div class="btn clear"><a href="">Delete</a></div>
+                </form>
+              </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Larry the Bird</td>
+              <td><p>@twitter</p></td>
+              <td>0000</td>
+              <td>0000</td>
+              <td>0000</td>
+              <td>
+                <form action="" class="dB">
+                  <div class="btn edit"><a href="./editbook.html"> Edit</a></div>
+                  <div class="btn clear"><a href="">Delete</a></div>
+                </form>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="footer bo">
+      <form action="" class="dB">
+        <div class="btn num">Total Books Number: <label for="">N</label></div>
+        <div class="btn add"><a href="./addbook.html">Add Book</a></div>
+      </form>
+    </div>
+  </body>
+</html>
